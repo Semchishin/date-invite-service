@@ -1,0 +1,78 @@
+{
+  "texts": {
+    "invitee": "Тест",
+    "errorWrongAnswer": "Произошла ошибка. Выберите правильный вариант ответа",
+    "back": "Назад",
+    "edit": "Изменить",
+    "confirm": "Подтвердить",
+    "waiting": "жду встречи",
+    "steps": {
+      "agree": {
+        "title": "Согласна?",
+        "subtitle": "subtitle",
+        "yes": "Да",
+        "no": "Нет"
+      },
+      "place": {
+        "title": "Место",
+        "subtitle": "subtitle"
+      },
+      "date": {
+        "title": "Дата",
+        "subtitle": "subtitle"
+      },
+      "time": {
+        "title": "Время",
+        "subtitle": "subtitle"
+      }
+    },
+    "customPlace": {
+      "label": "Свой вариант",
+      "placeholder": "Куда?"
+    },
+    "finale": {
+      "title": "Готово!",
+      "message": "message",
+      "placeLabel": "Место",
+      "dateLabel": "Дата",
+      "timeLabel": "Время"
+    },
+    "sign": {
+      "thanks": "Спасибо",
+      "author": "— Автор"
+    }
+  },
+  "places": [
+    {
+      "id": "cafe",
+      "title": "Кафе",
+      "description": "тихо и вкусно",
+      "image": "/images/place-cafe.svg"
+    },
+    {
+      "id": "cafe2",
+      "title": "Кафе 2",
+      "description": "тоже ресторан",
+      "image": "/images/place-cafe2.svg"
+    },
+    {
+      "id": "park",
+      "title": "Парк",
+      "description": "гулять",
+      "image": "/images/place-park.svg"
+    }
+  ],
+  "schedule": {
+    "excludedDates": [
+      "2026-05-20"
+    ],
+    "excludedWeekdays": [
+      6
+    ],
+    "maxAdvanceDays": 60,
+    "times": [
+      "18:00",
+      "20:00"
+    ]
+  }
+}

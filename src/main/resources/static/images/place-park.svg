@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-label="Парк">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="6" opacity="0.9">
+    <path d="M300 120v150"/>
+    <path d="M300 170c-60 0-90-30-100-60 40-10 80 0 100 30"/>
+    <path d="M300 200c60 0 90-30 100-60-40-10-80 0-100 30"/>
+    <path d="M240 280h120"/>
+  </g>
+  <text x="300" y="350" font-family="system-ui, sans-serif" font-size="34" fill="#ffffff" text-anchor="middle">Парк</text>
+</svg>

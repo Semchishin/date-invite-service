@@ -1,0 +1,105 @@
+.admin-body {
+  background-image: none;
+  background: #0a0f24;
+  align-items: flex-start;
+}
+
+.admin {
+  width: min(880px, 100%);
+  margin: 0 auto;
+  padding: 24px 0 48px;
+}
+
+.admin-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.admin-head h1 {
+  font-size: clamp(20px, 5vw, 26px);
+}
+
+.admin-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.stat {
+  padding: 12px 18px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, .07);
+  border: 1px solid var(--card-border);
+}
+
+.stat b {
+  display: block;
+  font-size: 22px;
+}
+
+.stat span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.card-invitation {
+  margin-bottom: 12px;
+  padding: 16px 18px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid var(--card-border);
+  animation: rise .25s ease both;
+}
+
+.card-invitation.is-completed {
+  border-color: rgba(143, 196, 255, .5);
+}
+
+.card-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  background: rgba(255, 255, 255, .12);
+}
+
+.badge.ok {
+  background: rgba(143, 196, 255, .25);
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.answer-row {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 10px;
+  padding: 7px 0;
+  border-top: 1px solid rgba(255, 255, 255, .08);
+  font-size: 15px;
+}
+
+.answer-row span:first-child {
+  color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  .answer-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
